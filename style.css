@@ -1,0 +1,916 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#user ul {
+    display: flex;
+}
+
+#user ul li {
+    list-style: none;
+    padding: 20px;
+    
+}
+#user ul #nav1,#nav2,#nav3,#nav4{
+    color: black;
+}
+#user ul a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#user ul #primary{
+    color: rgb(11, 100, 52, 1);
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+#main #first{
+    margin-left:30px;
+}
+
+#second {
+    display: flex;
+    margin-top: 20px;
+}
+
+#second i {
+    padding: 10px;
+    background-color: #d7e3dd;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+#third p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: inter;
+    padding-left: 25px;
+}
+
+#third h1{
+    padding-top:40px;
+    padding-left: 25px;
+}
+
+#fourth button {
+    width: 150px;
+    height: 35px;
+    margin-left: 25px;
+}
+
+#front {
+    margin-left: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(11, 100, 52, 1);
+    height: 300px;
+    width: 1550px;
+    margin-left: 0px;
+    scroll-behavior: smooth;
+}
+
+#fourth button {
+    border-radius: 5px;
+    color: rgba(11, 100, 52, 1);
+font-weight: bold;
+}
+
+#fruit img {
+    padding-top: 90px;
+    width: 400px;
+    height: px;
+    padding-right: 60px;
+    padding-bottom: 90px;
+}
+
+#food img {
+   padding:20px;
+    width:140px;
+
+}
+
+#food {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-top: 1px;
+}
+
+
+h2 {
+    margin: 0px;
+    margin-top:40px;
+    margin-left: 50px;
+}
+
+#food h5{
+    margin-left:70px;
+   margin-top:5px;
+}
+
+#career {
+    width: 400px;
+    height:370px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    background-color: goldenrod;
+    margin-left: 50px;
+}
+
+#career img {
+    width: 260px;
+    padding-bottom:40px;
+    padding-left: 50px;
+}
+
+#career h3 {
+    padding:40px;
+    padding-bottom:0px;
+    text-align: center;
+}
+
+#career h1 {
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+#list #feature {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#lko img {
+    width:200px;
+    height:180px;
+    margin-left:50px;
+
+}
+
+#lko button {
+    background-color: black;
+    color:#d7e3dd;
+}
+
+#batches {
+    display: flex;
+
+}
+
+#card h3 {
+    color: white;
+    font-size: ;
+}
+
+#card button {
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#card #wow {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left:300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card #wow #first {
+    font-size: 18px;
+}
+
+#card #wow #maa {
+    font-size: 25px;
+}
+
+#card {
+    text-align: center;
+    padding-left: 200px;
+}
+
+#lko {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    border-radius: 4px;
+    width:1100px;
+    height:180px;
+    background-color: rgba(253, 81, 81, .67);
+}
+
+#lko #wow p {
+    padding-top: 30px;
+}
+
+#work {
+    width:1100px;
+    height: 170px;
+    margin-left: 30px;
+    margin-top:20px;
+    border-radius: 5px;
+    background-color: #FF9564;
+    
+}
+
+#work img {
+    width: 300px;
+    height: 150px;
+    padding-left: 600px;
+}
+
+#self {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+#self img {
+    margin: 100px;
+    padding-top: 4px;
+}
+
+#self #cabbage button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+ border-radius: 4px;
+ margin-left:70px;
+}
+
+#self #cabbage {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+   width:280px;
+    height:290px;
+margin: 0px;
+text-align: center;
+}
+
+#self #cabbage img {
+    height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+
+}
+
+#self #cabbage{
+    text-align: center;
+}
+#self #cauliflower{
+     display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+margin: 0px;
+text-align: center;
+}
+#self #gzp img{
+    height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+#self #gzp button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left:70px;
+}
+
+#self #gzp{
+     display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+   
+}
+
+#self #sayar{
+     display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+margin: 0px;
+text-align: center;
+}
+#self #sayar img{
+    height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+#self #sayar button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left:70px;
+}
+
+#self #vns{
+     display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+   
+}
+
+#self #vns img{
+    height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+#self #vns button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left:70px;
+}
+#self{
+
+}
+  #life{
+    display: flex;
+    justify-content:space-between;
+}
+#life #tomato{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+#life #tomato img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+#life #tomato button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left:70px;
+}
+
+#life #green{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  margin-left:15px;
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+#life #green button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left:70px;
+}
+#life #green img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+
+#life #bean{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+
+#life #bean img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+#life #bean button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left:70px;
+}
+#life #radish button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+
+#life #radish img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+
+
+#life #radish{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+
+#thirdsection #walnut button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+#thirdsection #walnut img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+#thirdsection #walnut{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+#thirdsection #cashew{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+#thirdsection #cashew img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+#thirdsection #cashew button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+#thirdsection #almond{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+#thirdsection #almond img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+
+#thirdsection #almond button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+#thirdsection #peanut{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+#thirdsection #peanut img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+#thirdsection #peanut button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+#thirdsection{
+    display: flex;
+    justify-content: space-between;
+}
+#fourthsection #beef{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+     margin-top: 30px;
+}
+#fourthsection #beef img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+#fourthsection #beef button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+#fourthsection #chicken{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#fourthsection #chicken img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+#fourthsection #chicken button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+#fourthsection #fish{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  /* margin-left:15px;*/
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#fourthsection #fish img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+}
+#fourthsection #fish button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+
+    
+}
+
+#fourthsection #mix{
+   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0px;
+  margin-left:15px;
+   width:280px;
+    height:290px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#fourthsection #mix img{
+        height:80px;
+    width: 80px;
+    margin-bottom: 0px;
+    margin-top:25px;
+    margin-left:80px;
+    margin: 0px;
+    padding-left:80px;
+    padding-top: 40px;
+    align-items: center;
+}
+#fourthsection #mix button {
+    background-color: rgb(11, 100, 52, 1);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius:4px;
+    margin-left:70px;
+}
+#fourthsection{
+    display: flex;
+    justify-content: space-between;
+
+}
+#category h2{
+    font-family: Montserrat;
+font-size:22px;
+font-style: normal;
+font-weight: 600;
+line-height: 150.2%;
+}
+#all p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    margin-left:50px;
+    padding-top: 20px;
+} 
+
+
+#fifthsection {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+#fifthsection #follow {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+#fifthsection #follow p {
+    margin-left:50px;
+}
+#fifthsection #contact{
+    display: flex;
+    flex-direction: column;
+   
+}
+#fifthsection #contact p{
+    margin-left: 50px;
+}
+#fifthsection #help{
+    display: flex;
+    flex-direction: column;
+}
+#fifthsection #help p{
+    margin-left:50px;
+}
+#fifthsection #more{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+}
+#fifthsection #more p{
+    margin-left:50px;
+}
+#maintwo{
+    /*margin-left:20px;*/
+    padding: 0px 50px;
+}
+#work #butn{
+    position: relative;
+    margin: 10px;
+    padding: 10px 20px;
+    width:130px;
+    height:45px;
+    background-color:transparent;
+    margin-left:90px;
+    margin-top:70px;
+    border:3px solid black;
+}
+#work p{
+    color: white;
+    font-weight:bold;
+    margin-left:90px;
+    font-size:10px;
+}
+#work img{
+    margin-top:-200px;
+    margin-left: 200px;
+    height:170px;
+}
+#butn .top{
+    position: absolute;
+    top:-10px;
+    left: 8px;
+    background-color:#FF9564;
+}
+#butn .btm{
+    position: absolute;
+    bottom: -9px;
+    right: 5px;
+    background-color: #FF9564;
+}
+ #food.span1{
+    display: flex;
+    flex-direction: column;
+}
+#food .span2{
+        display: flex;
+    flex-direction: column;
+}
+#food .span3{
+        display: flex;
+    flex-direction: column;
+}
+#food .span4{
+        display: flex;
+    flex-direction: column;
+}
+#food .span5{
+        display: flex;
+    flex-direction: column;
+}
+#food .span1 #honey{
+    color: rgb(11, 100, 52, 1);
+}
